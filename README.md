@@ -1,9 +1,7 @@
 # Veeam Careers Test
 This is a Selenium - c# Project, using NUnit Framework. Reports are generated using ExtentReport. 
 
-It demonstrates Veeam-careers job vacancies based on given search criteria and number of job vacancies to expected number.
-
-
+It demonstrates asserting number of job vacancies listed in Veeam careers portal based on given search criteria against the expected number.
 
 <b><h3>Project Structure Explanation :</h3></b>
 
@@ -12,4 +10,5 @@ It demonstrates Veeam-careers job vacancies based on given search criteria and n
 3. BasePage.cs is the base class for other pages. It has methods to access web driver, web elements and logs each step to the report.
 4. TestReportBase.cs file holds setup and tear down for the test runs. It starts the driver, report, flushes them respectively.
 5. Test Scripts are written under <i>Tests</i> folder. The tests access the required Page objects from <i>Pages.</i>
-6. Reports generated using extent report are stored under <i>Reports</i> folder as html format with respective time stamps of the test run.
+6. The given sample runs for 3 test data in a single login session.
+7. Reports generated using extent report are stored under <i>Reports</i> folder as html format with respective time stamps of the test run.
