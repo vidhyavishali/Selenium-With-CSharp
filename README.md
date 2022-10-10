@@ -7,9 +7,9 @@ It demonstrates Veeam-careers job vacancies based on given search criteria and n
 
 <b><h3>Project Structure Explanation :</h3></b>
 
-1. Test Scripts are written under tests folder. 
-2. This Project is run using NUnit framework. 
-3. The Page Object Model structure is used, each page represents a webpage, are written under Pages folder. It holds locators for each element in the page.
-4. BasePage.cs is the base class for other pages. It has methods to access web driver, web elements and logs each step to the report.
-5. TestReportBase.cs file holds setup and tear down for the test runs. It starts the driver, report, flushes them respectively.
-6. Reports generated using extent report are stored under /Reports folder as html format.
+1. This Project is run using NUnit framework. 
+2. The Page Object Model structure is used, each page represents a webpage, are written under <i>Pages</i> folder. It holds locators for each element in the page.
+3. BasePage.cs is the base class for other pages. It has methods to access web driver, web elements and logs each step to the report.
+4. TestReportBase.cs file holds setup and tear down for the test runs. It starts the driver, report, flushes them respectively.
+5. Test Scripts are written under <i>Tests</i> folder. The tests access the required Page objects from <i>Pages.</i>
+6. Reports generated using extent report are stored under <i>Reports</i> folder as html format.
